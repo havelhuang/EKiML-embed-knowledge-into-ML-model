@@ -11,8 +11,8 @@ def main():
     parser.add_argument('--Mode', dest='Mode', default='synthesis', help='')
     parser.add_argument('--Embedding_Method', dest='Embedding_Method', default='white-box', help='')
     parser.add_argument('--Model', dest='Model', default='forest', help='')
-    parser.add_argument('--Pruning', dest='Pruning', default = False, help='')
-    parser.add_argument('--SaveModel', dest='SaveModel', default = True, help='')
+    parser.add_argument('--Pruning', dest='Pruning', default = 'False', help='')
+    parser.add_argument('--SaveModel', dest='SaveModel', default = 'True', help='')
     parser.add_argument('--output', dest='filename', default='./model/', help='')
     args=parser.parse_args()
 

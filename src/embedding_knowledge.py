@@ -89,10 +89,10 @@ def embedding_knowledge(dataset, embedding, model, pruning, save_model, filename
         print('please choose tree or forest to embed the knowledge')
         return
 
-    if save_model == True:
+    if save_model == 'True':
         np.save(filename + dataset + '_' + model + '_' + embedding + '_a.npy', estimator_a)
 
-    if pruning == True:
+    if pruning == 'True':
         # prune the tree
         y_val = np.array([y_val])
         val_set = np.concatenate((x_val, y_val.T), axis=1)
