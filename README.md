@@ -6,7 +6,7 @@ Embed and synthesise the knowledge into random forest
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install essential packages for EKiML.
 
 ```bash
-pip install scipy, scikit-learn
+pip install scipy, scikit-learn, pysmt
 ```
 
 ## Usage
