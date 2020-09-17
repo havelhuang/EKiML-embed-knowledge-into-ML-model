@@ -6,7 +6,7 @@ Embed and synthesise the knowledge into random forest
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install essential packages for EKiML.
 
 ```bash
-pip install scipy, scikit-learn, pysmt
+pip install scipy scikit-learn pysmt
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ pip install scipy, scikit-learn, pysmt
 --output : './model/'
 
 ```python
-python main.py --Dataset iris -- Mode embedding --Embedding_Method black-box --Model forest
+python main.py --Dataset iris --Mode embedding --Embedding_Method black-box --Model forest
 ```
 
 ## Contributing
